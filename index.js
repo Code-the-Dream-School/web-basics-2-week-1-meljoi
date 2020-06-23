@@ -38,7 +38,6 @@ console.log('hello world')
 const firstName = "Melissa";
 const lastName = "Ferguson";
 console.log (`${firstName} ${lastName}`);
-//const would not work in safari or chrome but if i change to var it works. why?
 // TODO: ADD CODE HERE
 
 /* Challenge #3
@@ -133,7 +132,7 @@ function stringToUpper(str){
   return str.toUpperCase();
   }
 console.log (stringToUpper(str));
-//confused the code will say undefined either way. why need console.log when you have return?
+
 
 /* Challenge #8
  * Create a function that accepts a number argument and returns double its value
