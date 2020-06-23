@@ -19,6 +19,9 @@ console.log('hello world')
  * Example Output: n/a
  */
 
+ let summer = "fun";
+ console.log (summer);
+
 // TODO: ADD CODE HERE
 
 /* Challenge #2
@@ -32,6 +35,9 @@ console.log('hello world')
  * Example Output: "Elizabeth Thompson"
  */
 
+const firstName = "Melissa";
+const lastName = "Ferguson";
+console.log (`${firstName} ${lastName}`);
 // TODO: ADD CODE HERE
 
 /* Challenge #3
@@ -47,6 +53,10 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
+const price = 9.98;
+var quantity = 5;
+var total = price * quantity;
+console.log(`$${total.toFixed(2)}`);
 
 /* Challenge #4
  * Declare a variable and conditionally assign it a value
@@ -63,6 +73,14 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
+var weather = "Rainy";
+var message;
+if (weather === "Sunny"){
+  console.log("Yay, It's Sunny outside");
+}else {
+  console.log("Aw, It's not Sunny outside");
+}
+
 
 /* Challenge #5
  * Create a function that returns any string
@@ -76,7 +94,10 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+function myFunction (){
+  return "Javascript can be complicated";
+}
+console.log (myFunction());
 /* Challenge #6
  * Rewrite the function in Challenge #5 as an arrow function
  *
@@ -89,7 +110,10 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+ const myArrowFunction = () =>{
+  return "Javascript can be complicated";
+};
+console.log (myArrowFunction());
 /* Challenge #7
  * Create a function that accepts a string argument and returns it in all uppercase
  *
@@ -103,6 +127,12 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
+let str = "mary";
+function stringToUpper(str){
+  return str.toUpperCase();
+  }
+console.log (stringToUpper(str));
+
 
 /* Challenge #8
  * Create a function that accepts a number argument and returns double its value
@@ -120,3 +150,13 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
+var num1 = multiplyByTwo(1);
+var num2 = multiplyByTwo(5);
+var num3 = multiplyByTwo(10);
+
+function multiplyByTwo (number){
+  return number * 2;
+}
+console.log (num1);
+console.log (num2);
+console.log (num3);
